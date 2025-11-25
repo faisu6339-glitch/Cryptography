@@ -1,0 +1,11 @@
+print("Swapping")
+a = int(input("Enter first value"))
+b = int(input("Enter second value"))
+print("Value before swapping")
+print("Value of a :",a)
+print('Value of b :',b)
+print('-'*20)
+a,b = b,a
+print("Value after swapping")
+print('Value of a ',a)
+print('Value of b ',b)

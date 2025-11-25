@@ -1,0 +1,14 @@
+def pal():
+    word = input("Enter your word")
+    j=len(word)-1
+    flag=True
+    for i in word:
+        if i!=word[j]:
+            flag=False
+            break
+        j-=1
+    if flag == True:
+        print("Palindrome")
+    else:
+        print("Not Palindrome")
+pal()
